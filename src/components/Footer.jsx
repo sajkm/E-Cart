@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function Footer() {
   return (
     <div
-      style={{ width: "100%", height: "250px", color:'white' }}
+      style={{ width: "100%", height: "250px", color:'white',overflow:'hidden' }}
       className="d-flex flex-column bg-primary justify-content-center align-items-center mt-5"
     >
       <div className="footer-content flex-wrap d-flex justify-content-evenly w-100">
@@ -85,7 +85,7 @@ export default function Footer() {
               name=""
               id=""
             />{" "}
-            <button className="btn btn-info" style={{width:'50px'}}><i class="fa-solid fa-circle-arrow-right"></i></button>
+            <button className="btn btn-warning" style={{width:'50px'}}><i class="fa-solid fa-circle-arrow-right"></i></button>
           </div>
           <div className="d-flex justify-content-evenly mt-3">
             <Link
